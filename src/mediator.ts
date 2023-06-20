@@ -2,7 +2,6 @@ import * as constants from './constants';
 import { defaultOptions } from './defaults';
 import dragScroller from './scroller';
 import { Axis, DraggableInfo, ElementX, GhostInfo, IContainer, MousePosition, Position, TopLeft, Orientation } from './interfaces';
-import './polyfills';
 import { addCursorStyleToBody, addStyleToHead, removeStyle } from './styles';
 import * as Utils from './utils';
 import { ContainerOptions } from './exportTypes';
